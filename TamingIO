@@ -1,0 +1,16 @@
+TamingIO/
+│
+├── index.html
+├── main.js
+├── style.css
+└── assets/
+    ├── images/
+    │   ├── player.png
+    │   ├── animal1.png
+    │   ├── animal2.png
+    │   └── ...
+    └── sounds/
+        ├── background.mp3
+        ├── attack.wav
+        ├── eat.wav
+        └── ...
