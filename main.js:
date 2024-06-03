@@ -1,0 +1,29 @@
+const config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+
+const game = new Phaser.Game(config);
+
+function preload() {
+    // تحميل الصور والأصوات الخاصة باللعبة
+    this.load.image('player', 'assets/images/player.png');
+    // قم بتحميل المزيد من الصور والأصوات هنا...
+}
+
+function create() {
+    // إنشاء المشهد والكائنات الأساسية
+    this.add.image(400, 300, 'player');
+    // إضافة المزيد من الكائنات هنا...
+}
+
+function update() {
+    // تحديث حالة اللعبة بشكل مستمر
+    // يمكنك إضافة التفاعلات والحركة هنا...
+}
